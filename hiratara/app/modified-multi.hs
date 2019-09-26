@@ -4,9 +4,10 @@ echoModified fname = do
     let file = fromText fname
     modtime <- datefile file
     let modtimestr = repr modtime
-    putStrLn modtimestr
+    putStr modtimestr
 
 main = do
     args <- arguments
     let arg = head args
+    putChar arg
     echoModified arg
