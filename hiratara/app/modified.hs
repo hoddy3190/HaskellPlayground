@@ -1,4 +1,4 @@
-import           Turtle
+import Turtle
 
 main = do
     args <- arguments
