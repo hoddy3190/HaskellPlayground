@@ -33,3 +33,9 @@ brew install haskell-stack
   - 実行されると副作用を含む動作をして結果を返すような何か
   - :tでは、IO (), IO Stringなどと表記される
   - mainで実行される
++ 言語拡張
+  - 一覧
+    - https://qiita.com/Lugendre/items/741ea90f22f688145313
+  - ` {-# LANGUAGE OverloadedStrings #-} `
+    - ダブルクオートで囲まれた文字をText型として扱う
+    - これをつけないとChar型になる
