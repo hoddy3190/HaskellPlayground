@@ -27,6 +27,8 @@ brew install haskell-stack
   
 ## 文法
 
++ 型
+  - [Char]とStringは同じ
 + 副作用
   - 入力を読んだり画面やファイルに何かを書き出したりすること
 + I/Oアクション
