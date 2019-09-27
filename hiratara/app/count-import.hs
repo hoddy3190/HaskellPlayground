@@ -6,6 +6,6 @@ import Turtle
 main = do
     args <- arguments
     let path = head args
-    empty & inproc "find" ([path] <> ["-name", "*.hs"])
+    empty & inproc "find" ([".", "-name", "*.hs"])
           & inshell "xargs grep '^import '"
           & shell "wc -l"
